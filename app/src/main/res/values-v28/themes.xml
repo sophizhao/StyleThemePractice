@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:colorAccent">@color/secondaryColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/buttonFontSize</item>
+        <item name="android:padding">@dimen/buttonPadding</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:buttonCornerRadius">20px</item>
+    </style>
+</resources>

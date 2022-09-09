@@ -8,25 +8,25 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_width="318dp"
+        android:layout_height="101dp"
+        android:text="Welcome to the Word Changer!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.192"
-        />
+        app:layout_constraintVertical_bias="0.061" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         style="@style/EditTextTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
+        android:layout_width="343dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="52dp"
         android:ems="10"
+        android:hint="Enter word here..."
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -34,19 +34,25 @@
     <Button
         android:id="@+id/button"
         style="@style/ButtonStyle"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:text="Button"
-        app:backgroundTint="@null"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="436dp" />
+        android:layout_width="282dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="28dp"
+        android:text="Lowercase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="579dp" />
+        style="@style/ButtonStyle"
+        android:layout_width="282dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="52dp"
+        android:text="Capitals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

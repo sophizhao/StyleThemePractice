@@ -14,22 +14,25 @@
         <!-- Customize your theme here. -->
 
         <item name="android:textSize">@dimen/fontsize</item>
-        <item name="android:width">@dimen/textViewWidth</item>
         <item name="android:height">@dimen/textViewHeight</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:colorBackground">@color/primaryLightColor</item>
     </style>
 
     <style name="EditTextTest" parent="android:style/Widget.EditText">
-        <item name="android:background">@color/primaryColor</item>
+        <item name="android:background">@color/secondaryDarkColor</item>
         <item name="android:textColor">@color/primaryTextColor</item>
         <item name="android:layout_width">@dimen/editTextWidth</item>
         <item name="android:layout_height">@dimen/editTextHeight</item>
         <item name="android:padding">@dimen/editPadding</item>
         <item name="android:textSize">@dimen/editFontSize</item>
+        <item name="android:textColorHint">@color/secondaryColor</item>
     </style>
 
     <style name="ButtonStyle" parent="android:style/Widget.Button">
-        <item name="android:colorAccent">@color/secondaryDarkColor</item>
-        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:colorAccent">@color/secondaryColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
         <item name="android:textSize">@dimen/buttonFontSize</item>
         <item name="android:padding">@dimen/buttonPadding</item>
         <item name="android:textAlignment">center</item>
