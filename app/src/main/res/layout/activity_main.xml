@@ -8,8 +8,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="318dp"
-        android:layout_height="101dp"
+        style="@style/Theme.MyApplication"
         android:text="Welcome to the Word Changer!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,9 +19,7 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        style="@style/EditTextTest"
-        android:layout_width="343dp"
-        android:layout_height="107dp"
+        style="@style/EditText"
         android:layout_marginTop="52dp"
         android:ems="10"
         android:hint="Enter word here..."
