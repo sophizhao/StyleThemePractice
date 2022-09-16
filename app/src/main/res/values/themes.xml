@@ -18,10 +18,9 @@
         <!-- Container Dimens -->
         <item name="android:layout_width">@dimen/textViewWidth</item>
         <item name="android:layout_height">@dimen/textViewHeight</item>
-        <item name="android:layout_margin">@dimen/genMargin</item>
-        <item name="android:padding">@dimen/genPadding</item>
         <!-- Background Color -->
         <item name="android:colorBackground">@color/secondaryLightColor</item>
+
     </style>
 
     <style name="EditText" parent="android:style/Widget.EditText">
@@ -29,9 +28,10 @@
         <item name="android:textColor">@color/primaryTextColor</item>
         <item name="android:layout_width">@dimen/textViewWidth</item>
         <item name="android:layout_height">@dimen/textViewHeight</item>
-        <item name="android:padding">@dimen/editPadding</item>
         <item name="android:textSize">@dimen/editFontSize</item>
         <item name="android:textColorHint">@color/secondaryDarkColor</item>
+        <item name="android:layout_margin">@dimen/genMargin</item>
+        <item name="android:padding">@dimen/genPadding</item>
 
     </style>
 
@@ -39,7 +39,16 @@
         <item name="android:colorAccent">@color/secondaryColor</item>
         <item name="android:textColor">@color/primaryTextColor</item>
         <item name="android:textSize">@dimen/buttonFontSize</item>
-        <item name="android:padding">@dimen/buttonPadding</item>
         <item name="android:textAlignment">center</item>
+        <item name="android:layout_margin">@dimen/genMargin</item>
+        <item name="android:padding">@dimen/genPadding</item>
     </style>
+
+    <style name="generalStyle">
+        <item name="android:layout_margin">@dimen/genMargin</item>
+        <item name="android:padding">@dimen/genPadding</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
 </resources>

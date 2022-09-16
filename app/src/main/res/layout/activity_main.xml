@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        style="@style/Theme.MyApplication"
+        style="@style/generalStyle"
         android:text="Welcome to the Word Changer!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,8 +33,8 @@
     <Button
         android:id="@+id/button"
         style="@style/ButtonStyle"
-        android:layout_width="282dp"
-        android:layout_height="122dp"
+        android:layout_width="235dp"
+        android:layout_height="105dp"
         android:layout_marginTop="28dp"
         android:text="Lowercase"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,13 +45,25 @@
     <Button
         android:id="@+id/button2"
         style="@style/ButtonStyle"
-        android:layout_width="282dp"
-        android:layout_height="115dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="238dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="24dp"
         android:text="Capitals"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/ButtonStyle"
+        android:layout_width="145dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="164dp"
+        android:text="About"
+        android:textSize="@dimen/smallFont"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
