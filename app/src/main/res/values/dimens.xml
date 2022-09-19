@@ -6,9 +6,8 @@
     <dimen name="editPadding">30dp</dimen>
     <dimen name="textFontSize">30dp</dimen>
     <dimen name="editFontSize">20dp</dimen>
-    <dimen name="buttonFontSize">30dp</dimen>
-    <dimen name="buttonPadding">20dp</dimen>
-    <dimen name="genPadding">30px</dimen>
+    <dimen name="buttonFontSize">10dp</dimen>
+    <dimen name="genPadding">10px</dimen>
     <dimen name="genMargin">40px</dimen>
     <dimen name="smallFont">18dp</dimen>
 

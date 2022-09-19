@@ -20,9 +20,9 @@
         <ImageView
             android:id="@+id/imageView2"
             style="@style/generalStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_width="154dp"
+            android:layout_height="211dp"
+            tools:srcCompat="@drawable/photo" />
 
         <TextView
             android:id="@+id/textView3"

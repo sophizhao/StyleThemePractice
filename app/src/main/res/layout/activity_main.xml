@@ -60,6 +60,7 @@
         android:layout_width="145dp"
         android:layout_height="74dp"
         android:layout_marginTop="164dp"
+        android:onClick="switchScreens"
         android:text="About"
         android:textSize="@dimen/smallFont"
         app:layout_constraintEnd_toEndOf="parent"
